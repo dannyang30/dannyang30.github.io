@@ -1,0 +1,43 @@
+body {
+  background-color: #0a192f;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.875rem;
+}
+
+p,
+ul {
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+p,
+.footer {
+  color: white;
+}
+
+.footer {
+  font-size: 1rem;
+}
+
+ul {
+  color: #8bd8bc;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
