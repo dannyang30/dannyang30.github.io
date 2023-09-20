@@ -1,6 +1,9 @@
 body {
   background-color: #0a192f;
-  padding: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 h1 {
@@ -26,6 +29,7 @@ h3,
 p,
 .footer {
   color: white;
+  margin-top: 0px;
 }
 
 .footer {
@@ -40,4 +44,39 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.navbar-menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+}
+
+#hero-image {
+  height: 400px;
+  width: 400px;
+}
+
+.left-hand-side-hero {
+  padding-top: 40px;
 }
