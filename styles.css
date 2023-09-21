@@ -39,6 +39,7 @@ p,
 ul {
   color: #8bd8bc;
   list-style: none;
+  padding-left: 0px;
 }
 
 a {
@@ -47,8 +48,8 @@ a {
 }
 
 #logo {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
 }
 
 #navbar {
@@ -56,7 +57,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .navbar-menu ul {
@@ -79,4 +80,46 @@ a {
 
 .left-hand-side-hero {
   padding-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5%;
+  height: 5px;
+  background-color: #8bd8bc;
+  z-index: -1;
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact-icons-and-text {
+  width: 40%;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 0px;
 }
