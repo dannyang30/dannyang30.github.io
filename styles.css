@@ -167,15 +167,16 @@ nav, ul, a, footer {
 
 .project {
   display: flex;
-  /* justify-content: center; */
   padding-bottom: 1.5em;
+  flex-direction: column;
+  justify-content: left;
 }
-
+/* 
 .project-body {
   display: flex;
   flex-direction: column;
   justify-content: left;
-} 
+}  */
 
 .hero-cta {
   background-image: linear-gradient(to right, #384454, #629898);
