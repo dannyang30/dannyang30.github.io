@@ -155,9 +155,8 @@
   .projects-listing {
     display: flex;
     flex-direction: column;
-    max-width: auto;
-    /* padding-right: 20%;
-    padding-left: 20%; */
+    padding-right: 20%;
+    padding-left: 20%;
     /* padding: 6em 3em; */
   }
 
@@ -232,6 +231,10 @@
 
     #menu-icon:focus ~ ul {
       left: 0;
+    }
+
+    .projects-listing {
+      padding: 0;
     }
 
 
