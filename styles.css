@@ -71,6 +71,15 @@
     display: none;
   }
 
+
+  #close-icon {
+    width: 3em;
+    display: none;
+  }
+
+
+
+
   .navbar-menu ul {
     display: flex;
     flex-direction: row;
