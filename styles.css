@@ -90,11 +90,11 @@ a {
 .hero {
   display: flex;
   flex-direction: row;
-  gap: 10%; /* Adjust gap as needed */
+  gap: 10%; 
   justify-content: center;
   max-width: 1100px;
   padding: 6em 3em;
-  align-items: center; /* Added property */
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -106,8 +106,6 @@ a {
 }
 
 #hero-image {
-  /* height: 400px;
-  width: 400px; */
   height: 100%;
   width: 100%;
 }
@@ -163,7 +161,7 @@ nav, ul, a, footer {
 }
 
 .projects {
-  padding: 0 3em 6em 3em;
+  padding: 0 3em 6em 3em; 
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -173,7 +171,6 @@ nav, ul, a, footer {
   flex-direction: column;
   padding-right: 20%;
   padding-left: 20%;
-  /* padding: 6em 3em; */
 }
 
 .skills {
@@ -209,7 +206,7 @@ nav, ul, a, footer {
 }
 
 .hero-cta:hover {
-  background-image: linear-gradient(to right, #629898, #8bd8bc);  /* Adjust to your additional website color */
+  background-image: linear-gradient(to right, #629898, #8bd8bc); 
 }
 
 
@@ -252,7 +249,7 @@ nav, ul, a, footer {
     flex-direction: column-reverse;
     gap: 40px;
     padding-top: 3em;
-    align-items: flex-start; /* Added property */
+    align-items: flex-start;
   }
 
 
