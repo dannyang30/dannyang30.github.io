@@ -225,6 +225,10 @@ nav, ul, a, footer {
     display: block;
   }
 
+  .right-hand-side-hero {
+    align-self: center;
+  }
+
 
   .navbar-menu ul {
     position: fixed;
