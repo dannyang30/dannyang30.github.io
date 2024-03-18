@@ -248,6 +248,7 @@ nav, ul, a, footer {
     flex-direction: column-reverse;
     gap: 40px;
     padding-top: 3em;
+    align-items: flex-start; /* Added property */
   }
 
 
